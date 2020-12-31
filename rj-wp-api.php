@@ -12,7 +12,6 @@ Licence: GPL2
  If Application password plugin not working, add the following code to .htaccess
  just bellow the line Rewrite Engine On:
  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
- https://property-madagascar.com/wp-json/wp/v2/listing_type?filter[listing]=villa
 */
 if( !defined('ABSPATH') ){
 	exit;
